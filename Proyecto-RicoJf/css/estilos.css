@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&family=Poppins:wght@300;700&display=swap');
+
+/*ejercicio para la próxima clase es modificar el link de la parte superior para que las tipos 
+mulish
+source serif sean utilizada como variables*/
+
+* {
+    box-sizing:border-box ;
+}
+
+
+body {
+    background-color: #1E1E1E;
+    width: 100vw;
+    height: 100vh;
+
+    color: #F7DCD2;
+    
+
+    font-size: 100%;
+    font-family: 'Kufam', sans-serif;
+}
+
+header , nav {
+    align-items: center;
+    width: 100%;
+    display: flex;
+  
+}
+header div {
+    width: 40%;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.16em;
+}
+
+
+ #botonesder {
+    font-family: 'Kufam', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    /*transforma el texto en mayúscula*/
+    font: size 1.4em;
+
+}
+#vinculo{
+    color: #ff5e00;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+#vinculo:hover {
+    color: #F7DCD2;
+}
+
+  
+
+/*cdo le paso el mouse x arriba el vinculo invierte sus colores*/
+
+
+
+strong {
+    font-family: 'Kufam', sans-serif;
+
+}
+
+/* se puede utilizar una sóla vez por html*/
+
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 60%;
+    }
+
+
+}
